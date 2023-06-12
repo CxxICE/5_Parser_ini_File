@@ -14,10 +14,7 @@ public:
 class ParserIniFile
 {
 public:
-	ParserIniFile()
-	{
-		_filename = "";
-	};
+	ParserIniFile() = default;
 	
 	explicit ParserIniFile(const std::string &filename)
 	{
